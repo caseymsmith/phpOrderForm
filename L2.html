@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Bob's Auto Parts</title>
+</head>
+
+<body> 
+
+<h2>Bob's Auto Parts</h2>
+
+<form action="processorder.php" method="post">
+<table border="2">
+<tr bgcolor="#ccccc">
+<td width="150">Item</td>
+<td width="15">Quantity</td>
+</tr>
+
+<tr>
+	<td>Tires</td>
+	<td align="center"><input type="text" name="tireqty" size="3" maxlength="3"/></td>
+</tr>
+
+<tr>
+	<td>Oil</td>
+	<td align="center"><input type="text" name="oilqty" size="3" maxlength="3"/></td>
+</tr>
+
+<tr>
+	<td>Spark Plugs</td>
+	<td align="center"><input type="text" name="sparkqty" size="3" maxlength="3"/></td>
+</tr>
+
+<tr>
+	<td colspan="2" align="center"> <input type="submit" value="Submit Order"/> </td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>
